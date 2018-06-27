@@ -1,6 +1,6 @@
 {
-  "name": "@damirpirija/angular-calendar-week-hours-view",
-  "version": "1.0.2",
+  "name": "angular-calendar-week-hours-view",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Innqube",
   "keywords": [
@@ -24,11 +24,10 @@
     "build-dist": "rm -rf dist && npm run packagr && npm run bundle-styles && cd dist && npm pack",
     "bundle-styles": "scss-bundle -c scss-bundle.config.json"
   },
-  "dependencies": {
-    "rxjs-compat": "^6.2.1"
-  },
+  "dependencies": {},
   "private": false,
   "devDependencies": {
+    "rxjs-compat": "^6.2.1",
     "@angular-devkit/schematics": "^0.6.8",
     "rxjs-tslint": "^0.1.5",
     "@angular/animations": "^6.0.6",
