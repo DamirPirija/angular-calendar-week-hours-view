@@ -3,8 +3,8 @@ import {
     TemplateRef
 } from '@angular/core';
 import {CalendarEvent, DayView, DayViewEvent, DayViewHour, DayViewHourSegment} from 'calendar-utils';
-import {Subject} from 'rxjs/Subject';
-import {Subscription} from 'rxjs/Subscription';
+import {Subject} from 'rxjs';
+import {Subscription} from 'rxjs';
 import {ResizeEvent} from 'angular-resizable-element';
 import {addMinutes} from 'date-fns';
 import {CalendarEventTimesChangedEvent, CalendarUtils} from 'angular-calendar';

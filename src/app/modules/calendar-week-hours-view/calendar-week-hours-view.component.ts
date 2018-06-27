@@ -12,10 +12,10 @@ import {
     TemplateRef
 } from '@angular/core';
 import {CalendarEvent, DayViewHour, DayViewHourSegment, WeekDay, WeekViewEvent, WeekViewEventRow} from 'calendar-utils';
-import {Subject} from 'rxjs/Subject';
+import {Subject} from 'rxjs';
 import {ResizeEvent} from 'angular-resizable-element';
 import {addDays} from 'date-fns';
-import {Subscription} from 'rxjs/Subscription';
+import {Subscription} from 'rxjs';
 import {CalendarEventTimesChangedEvent, CalendarUtils} from 'angular-calendar';
 import {WeekViewEventResize} from 'angular-calendar/modules/week/calendar-week-view.component';
 import {validateEvents} from 'angular-calendar/modules/common/util';
