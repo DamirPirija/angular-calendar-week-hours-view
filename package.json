@@ -1,5 +1,5 @@
 {
-    "name": "angular-calendar-week-hours-view",
+    "name": "@damirpirija/angular-calendar-week-hours-view",
     "version": "1.0.2",
     "license": "MIT",
     "author": "Innqube",
@@ -11,7 +11,7 @@
         "week schedule"
     ],
     "repository": {
-        "url": "https://github.com/Innqube/angular-calendar-week-hours-view"
+        "url": "https://github.com/damirpirija/angular-calendar-week-hours-view"
     },
     "scripts": {
         "ng": "ng",
